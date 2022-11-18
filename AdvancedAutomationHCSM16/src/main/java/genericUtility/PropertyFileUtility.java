@@ -11,5 +11,6 @@ public static String PropertyReader(String KeyValue) throws IOException {
 	property.load(fis);
 	String Value = property.getProperty(KeyValue);
 	return Value;
+	
 }
 }
